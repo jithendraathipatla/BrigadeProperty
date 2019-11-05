@@ -1,0 +1,9 @@
+.herocomponent{
+    padding-top:66px;
+    background-image: linear-gradient(to bottom, #3379b7b9,#387ab485), url("../first.jpg");
+    height:85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}

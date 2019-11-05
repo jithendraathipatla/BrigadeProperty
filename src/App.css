@@ -1,22 +1,65 @@
-.App {
-  text-align: center;
+.card_container{
+    padding: 35px 20px 5px 20px;
+    display:grid;
+    grid-template-columns: 3fr 3fr 3fr ;
+    grid-gap:2rem;
+}
+.media-left {
+    margin-right: 0rem;
+    color:black;
+    font-style: italic;
+    margin-bottom:5px;
+    border: 1px solid #eee;
+    padding: 6px 0px 4px 17px;
+    border-radius: 7px;
+    font-size: 20px;
+    /* letter-spacing: 1px; */
+    /* word-spacing: -1px; */
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
 }
 
-.App-logo {
-  height: 40vmin;
+.box:not(:last-child) {
+    margin-bottom: 0.01rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button.is-primary.is-outlined{
+    margin-right: 40px;
+    border-radius:50px
 }
 
-.App-link {
-  color: #09d3ac;
+.button.is-link.is-outlined{
+    border-radius: 50px;
+    color: white;
+    animation: buttonanimate 2s linear infinite;
+    animation: horizontal left 2s ease infinite;
+    border-color: #ff1744;
 }
+
+@keyframes buttonanimate{
+    from {background-color: rgba(255, 187, 0, 0.87);}
+    to {background-color: rgba(0, 255, 221, 0.856);}
+}
+
+.card{
+    box-shadow: 0px 5px 6px 7px rgba(0,0,0,0.001) ;
+    border-radius: 3px;
+}
+.card_buttons{
+    display: flex;
+}
+
+.box{
+    padding: 4px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card_container {
+       
+        display: block;
+       
+    }
+    .box{
+        margin-bottom: 13px;
+    }
+  }

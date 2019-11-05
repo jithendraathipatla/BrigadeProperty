@@ -1,0 +1,18 @@
+.Footer{
+    display:flex;
+    height: 30px;
+    border-top: 1px solid #eee;
+    padding:10px;
+    margin-top:30px;
+    text-align: center;
+    box-shadow: 1px 0px 3px rgba(0,0,0,0.1);
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+.Footer_main{
+    flex:3
+}
+
+.Footer_submain{
+    flex:2;
+}
