@@ -15,10 +15,8 @@ const Card = (props) => {
           <figure className="image is-4by3">
             <img src={props.image} alt="Placeholder image"/>
             <div className="overlay">
-              <a href={Modal} className="icon" title="User Profile">
-                <AiOutlineSearch/>
-             </a>
-             </div>
+            <Modal className="icon" class={"none"} text={"Click"}/>
+            </div>
           </figure>
         </div>
         <div className="card-content">

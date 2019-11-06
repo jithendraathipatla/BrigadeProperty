@@ -149,8 +149,18 @@
     position: relative;
     margin-top: -19px;
     border-radius: 8px;
+    border-bottom: none;
    
-   
+}
+.none{
+    cursor: pointer;
+    background: none;
+    border-radius: 50%;
+    border: none;
+    margin-left: -16px;
+    margin-top: -3px;
+    position: fixed;
+    font-weight: 700;
 }
 
 .modal-card-title {
@@ -195,5 +205,14 @@
         margin: auto;
         width: 291px;
         border-radius: 15px;
+    }
+    .none{
+        cursor: pointer;
+        background: none;
+        border-radius: 50%;
+        border: none;
+        margin-left: -21px;
+        margin-top: -3px;
+        position: fixed;
     }
   }
