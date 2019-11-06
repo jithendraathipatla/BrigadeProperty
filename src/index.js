@@ -14,6 +14,7 @@ import Image6 from "../src/6.jpg";
 import Image7 from "../src/7.jpg";
 import Image8 from "../src/8.jpg";
 import Image9 from "../src/9.jpg";
+import Image14 from "../src/14.jpg";
 import Image10 from "../src/10.jpg";
 import Image11 from "../src/11.jpg";
 import Image12 from "../src/12.jpg";
@@ -22,7 +23,8 @@ import "./App.sass";
 import "./App.css"
 
 const App = () => {
-    const [state,setstate] = useState([
+
+    const [state, setstate] = useState([
 
         {
             image:Image4,
@@ -33,7 +35,7 @@ const App = () => {
             location:"Madras Road, Bangalore East",
             posession:"2020 onwards",
             link:"https://drive.google.com/open?id=1cAfW2ZMNwWGpGCwiQYhRXvH-1dHFwThs",
-            brouchereName:"Brigade beune Vista Brouchere",
+            brouchereName:"Download Brigade beune Vista Brouchere",
         },
         {
             image:Image5,
@@ -44,7 +46,7 @@ const App = () => {
             location:"varthur Road, Bangalore",
             posession:"2023 onwards",
             link:"https://drive.google.com/open?id=1gD1dqRdfmSLXclBQSC43a3VBY3CNOj84",
-            brouchereName:"Brigade cornerstone Utopia Brouchere",
+            brouchereName:"Download Brigade cornerstone Utopia Brouchere",
         },
         {
             image:Image6,
@@ -55,7 +57,7 @@ const App = () => {
             location:"Bagalur, Bangalore",
             posession:"2023 onwards",
             link:"https://drive.google.com/open?id=1WksC2Rh9LkukLantUky7LCPuwaovZqhQ",
-            brouchereName:"Brigade El Dorado Brouchere",
+            brouchereName:"Download Brigade El Dorado Brouchere",
         },
         {
             image:Image7,
@@ -66,7 +68,7 @@ const App = () => {
             location:"Budigere cross, Bangalore East",
             posession:"Ready to move",
             link:"https://drive.google.com/open?id=1b3fYGDhhzFwxK1dk_Mj9XxaWna0tRbO6",
-            brouchereName:"Brigade Exotica Brouchere",
+            brouchereName:"Download Brigade Exotica Brouchere",
         },
         {
             image:Image8,
@@ -77,7 +79,7 @@ const App = () => {
             location:"Whitefield Road, Bangalore East",
             posession:"Ready to move",
             link:"https://drive.google.com/open?id=1TF_BvdQ9zaZXy61K-5yXha8Nv_U-CDbq",
-            brouchereName:"Brigade lakefront Brouchere",
+            brouchereName:"Download Brigade lakefront Brouchere",
         },
         {
             image:Image9,
@@ -88,11 +90,11 @@ const App = () => {
             location:"Devanahalli Road, Bangalore North",
             posession:"Ready to move",
             link:"https://drive.google.com/open?id=1OeeSldqfbpZXplUOwWiAWsCg3O1zromP",
-            brouchereName:"Brigade Orchads Brouchere",
+            brouchereName:"Download Brigade Orchads Brouchere",
         },
 
         {
-            image:Image10,
+            image:Image11,
             alt:"Brigade Panorama",
             unit_type:"2 & 3 BHk",
             price:"64 Lakhs",
@@ -100,10 +102,10 @@ const App = () => {
             location:"Mysore Road, Bangalore",
             posession:"Ready to move",
             link:"https://drive.google.com/open?id=117wcyJb8K-gXHMH4ekOCze21axWA9iqX",
-            brouchereName:"Brigade Panorama Brouchere",
+            brouchereName:"Download Brigade Panorama Brouchere",
         },
         {
-            image:Image11,
+            image:Image12,
             alt:"Brigade Parkside East",
            unit_type:"1 & 2 BHk",
             price:"60 lakhs",
@@ -111,11 +113,11 @@ const App = () => {
             location:"Sarajpur Road, Bangalore East",
             posession:"2020 onwards",
             link:"https://drive.google.com/open?id=1gQjBmCJWfZyXE2TY9EeKeJFoisZzdN20",
-            brouchereName:"Brigade Parkside East Brouchere",
+            brouchereName:"Download Brigade Parkside East Brouchere",
         },
        
         {
-            image:Image13,
+            image:Image14,
             alt:"Brigade Utopia",
             unit_type:"1 2 & 3 BHk",
             price:"48 Lakhs",
@@ -123,7 +125,7 @@ const App = () => {
             location:"varthur Road, Bangalore",
             posession:"2021 onwards",
             link:"https://drive.google.com/open?id=1JmstNKv4SmlSJNp-DduTnkufTNjOP9m6",
-            brouchereName:"Brigade Utopia Brouchere",
+            brouchereName:"Download Brigade Utopia Brouchere",
         },
         {
             image:Image1,
@@ -134,7 +136,7 @@ const App = () => {
             location:"Kanakapuram Road, Bangalore",
             posession:"2019 onwards",
             link:"https://drive.google.com/open?id=13RanqpLEI3kXmVEoMW-CEX2cqxb4wa9q",
-            brouchereName:"Brigade 7 Gardens Brouchere",
+            brouchereName:"Download Brigade 7 Gardens Brouchere",
         },
         {
             image:Image2,
@@ -145,7 +147,7 @@ const App = () => {
             location:"Devanahalli, Bangalore",
             posession:"2018 onwards",
             link:" https://drive.google.com/open?id=1bwlqGWh49gKRN7CIQ0jq1KmbgnL8r6vQ",
-            brouchereName:"Brigade Atmosphere Brouchere",
+            brouchereName:"Download Brigade Atmosphere Brouchere",
         },
         {
             image:Image3,
@@ -156,10 +158,10 @@ const App = () => {
             location:"Jakkur, Bangalore north",
             posession:"2021 onwards",
             link:"https://drive.google.com/open?id=1_jEzTFqJ43p0X9PZMPuF51HLlXOhJpYA",
-            brouchereName:"Brigade Bricklane Brouchere",
+            brouchereName:"Download Brigade Bricklane Brouchere",
         },
         {
-            image:Image12,
+            image:Image9,
             alt:"Brigade Pulmeria",
             unit_type:"2 & 3 BHk",
             price:"62 Lakhs",
@@ -167,11 +169,10 @@ const App = () => {
             location:"Banashankari Road, Bangalore South",
             posession:"Ready to move",
             link:"https://drive.google.com/open?id=1qSCOThM5_xGc18fiSg572URrbR7HmDjn",
-            brouchereName:"Brigade Bricklane Brouchere",
+            brouchereName:"Download Brigade Bricklane Brouchere",
         },
-
         {
-            image:Image1,
+            image:Image13,
             alt:"Brigade Woods",
             unit_type:" 2 & 3 BHk",
             price:"90 Lakhs",
@@ -179,9 +180,9 @@ const App = () => {
             location:"Whitefield, Itpl ,Bangalore East",
             posession:"2020 onwards",
             link:"https://drive.google.com/open?id=1eL7O7cpfI6_8hM2-0KshziUDZcs3Zc0L",
-            brouchereName:"Brigade Woods Brouchere",
+            brouchereName:"Download Brigade Woods Brouchere",
         },
-        
+
     ])
 
     const displayingCards = () => {

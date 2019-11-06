@@ -59,7 +59,7 @@ const Modalonclick = (props) => {
             // same shape as initial values
             document.getElementById("root").style.display="none";
             setstate(false)
-            const element = <h1 style={{textAlign:"center", marginTop:"50px", fontWeight:"800"}}>You successfully have submitted the details, We will contact you shortly.<a href={props.link} target="_blank" style={{fontSize:"32px"}}>Download {props.brouchere}</a></h1>;
+            const element = <h1 style={{textAlign:"center", marginTop:"50px", fontWeight:"800"}}>You successfully have submitted the details, We will contact you shortly.<a href={props.link} target="_blank" style={{fontSize:"32px"}}>{props.brouchere}</a></h1>;
             ReactDOM.render(element,document.getElementById("details"));
             
             console.log(values);
