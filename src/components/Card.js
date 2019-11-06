@@ -1,16 +1,24 @@
 import React from 'react';
 import 'react-bulma-components/dist/react-bulma-components.min.css';
-import {FaHome, FaRupeeSign,FaCalendarAlt} from 'react-icons/fa'
+import {FaHome, FaRupeeSign,FaCalendarAlt} from 'react-icons/fa';
+import {AiOutlineSearch} from "react-icons/ai";
+
 import {MdLocationOn} from 'react-icons/md';
 import {GiEvilTower} from 'react-icons/gi';
+import Modal from "./modal";
+
 const Card = (props) => {
-   console.log(props.image)
     return (
         <div className="box">
         <div className="card">
         <div className="card-image">
           <figure className="image is-4by3">
             <img src={props.image} alt="Placeholder image"/>
+            <div className="overlay">
+              <a href={Modal} className="icon" title="User Profile">
+                <AiOutlineSearch/>
+             </a>
+             </div>
           </figure>
         </div>
         <div className="card-content">
@@ -43,10 +51,11 @@ const Card = (props) => {
           
         </div>
         <div className="card_buttons">
-        <button className="button is-primary is-outlined">Read More</button>
-           <button className="button is-link is-outlined">Brouchere</button>
+        <Modal class={"button is-primary is-outlined"} text={"Read More"} propertyName={props.alt}/>
+        <Modal class={"button is-link is-outlined"} text={"Brouchere"} propertyName={props.alt} link={props.link} brouchere={props.brouchere}/>
         </div>
       </div>
+     
         </div>
         </div>
     );
