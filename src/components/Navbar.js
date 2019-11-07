@@ -97,6 +97,7 @@ const Navigation = styled.header`
     display: block;
     position: relative;
     margin-bottom: 0px;
+    position:fixed;
     .logo {
       width: 100%;
       display: block;
@@ -109,7 +110,7 @@ const Navigation = styled.header`
     }
     #in_mobile{
     height: 60px;
-    width: 176px;
+    width: 137px;
     margin-top: -19px;
     }
     .fa-bars {

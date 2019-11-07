@@ -182,14 +182,14 @@
     .herocomponent {
         background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(51,121,183,.73)),to(rgba(56,122,180,.52))),url(/static/media/first.57abd032.jpg);
         background-image: linear-gradient(180deg,rgba(51,121,183,.73),rgba(56,122,180,.52)),url(/static/media/first.57abd032.jpg);
-        height: 85vh;
         background-repeat: no-repeat;
         background-size: cover;
         color: #fff;
         text-align: justify;
         font-style: italic;
         font-size: 16px;
-        padding: 47px 24px;
+        height:72vh;
+        padding: 89px 24px;
     }
     .box{
         margin-bottom: 13px;
